@@ -1,0 +1,41 @@
+body{
+    background-color:black;
+    color: white;
+    font-family: 'Poppins';
+}
+h1{
+    color: white;
+    font-family: 'Poppins';
+    text-align: center;
+}
+.container{
+    display: flex;
+    justify-content: center; 
+    align-items:center;
+    height:20%;
+}
+/*After using flexbox set the width of the image to 100% to make the image sizing dynamic and max-width to set the maximum width of the image*/
+#grp {
+    width: 100%;
+    height: auto; /* Maintain aspect ratio */
+    border: 1.5px solid white;
+    padding: 1px;
+}
+/*Changing the height of an image in a flexbox does not make the image responsive*/
+.people{
+    float: left;
+    height: 250px;
+    border: 2px solid white;
+    padding: 2px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+h3{
+    clear: left;
+}
+li{
+    list-style: circle;
+}
+div{
+    text-align: justify;
+}
